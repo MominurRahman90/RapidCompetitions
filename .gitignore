@@ -1,13 +1,12 @@
 .env
 db.sqlite3
-media
-myvenv
-env
+media/
+env/
+venv/
 myenv/
 myvenv/
-staticfiles
+staticfiles/
 *.pyc
-venv
 __pycache__/
 authentication/__pycache__/
 authentication/migrations/__pycache__/
@@ -16,3 +15,4 @@ home/migrations/__pycache__/
 rapid/__pycache__/
 user/__pycache__/
 user/migrations/__pycache__/
+
