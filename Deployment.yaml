@@ -20,11 +20,10 @@ spec:
         ports:
         - containerPort: 8000
         env:
+        - name: 
           value: "False"
-
-
 ---
-apiVersion: apps/v1
+apiVersion: v1
 kind: Service
 metadata:
   name: rapid-competitions-service
