@@ -15,7 +15,7 @@ spec:
         app: rapid-competitions
     spec:
       containers:
-      - name: rapid-competitions
+      - name: rapid-container
         image: mominur2804/rapid-competitions:latest
         ports:
         - containerPort: 8000
@@ -24,7 +24,7 @@ spec:
 
 
 ---
-apiVersion: apps/v1
+apiVersion: v1
 kind: Service
 metadata:
   name: rapid-competitions-service
